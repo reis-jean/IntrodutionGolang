@@ -1,0 +1,16 @@
+Linguagem copilada;
+Otimizada para usar mais de um nucleo do processador;
+Feita para lidar com concorrencia;
+É simples como Python ou Javascript;
+Robusto como C# e Java;
+
+Para instalar Basta Instalar O Go do site oficial;
+Para verificar instalação e Versão dar o Comando:
+    -> go version
+
+
+é criado de forma dinamica as pastas bin, pkg, src;
+    -> Pasta bin é salvo os executaveis;
+    -> Pkg fica as bibliotecas;
+    -> src onde fica os codigos fontes;
+    é possivel personalizar esta estrutura;
