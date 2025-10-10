@@ -1,0 +1,17 @@
+Pacotes
+    Ao dar um "go mod init Modulo" é Criado o Arquivo go.mod;
+    Este arquivo reune todas as libs que o go usa;
+    Ao dar o "go build" é rodado o arquivo main.go e é criado o Arquivo Modulo.exe (executavel do prog desenvolvimento)
+
+    go run main.go é Rodado o codigo (Sem gerar/atualizado o arquivo.exe)
+
+    funções com letras minusculas são funções privadas, com maiusculas são publicas (sendo possivel usar em outros pacotes)
+
+    "go install" faz um aquivo de execução tambem porem cria fora da pasta do codigo;
+
+Pacotes Externo
+    Para referenciar a algum pacote externo basta dar o comando :
+        go get github.com/badoux/checkmail
+
+    remover pacotes Não usados
+        go mod tidy
